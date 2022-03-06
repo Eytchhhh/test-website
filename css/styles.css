@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Calibri';
+}
+.navbar {
+    padding: 3%;
+    margin: auto 7%;
+    background-color:transparent;
+
+}
+.navbar-fixed-top.scrolled {
+    background-color:#fff !important;
+    transition: background-color 1200ms linear;
+    margin-top: 0;
+}
+.container-fluid{
+    background-image: url('/images/bg-tablet-pattern.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x:800px;
+    background-position-y: -100px;
+    height: 800px;
+    width: auto;
+    padding: 5%;
+    overflow: hidden;
+    
+}
+.container-fluid div.col {
+    margin:  5% 5%;
+    padding: 2%;
+}
+.container-fluid h1 {
+    font-weight: 700;
+    color:hsl(228, 39%, 23%);
+    padding: 5%;
+    font-size: 40px;
+}
+.container-fluid p {
+    font-weight: 200;
+    color:hsl(227, 12%, 61%);
+    padding: 5%;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+    font-size: 14px;
+}
+.container-fluid button {
+    transform: translateX(20px);
+}
+
+    
+.btn {
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    padding: auto;
+    color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.02rem;
+   
+}
+a.nav-link {
+    color:hsl(228, 39%, 23%);
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+.container-fluid2{
+    background-image: url('/images/bg-tablet-pattern.svg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x:-510px;
+    background-position-y: 300px;
+    height: 1000px;
+    width: auto;
+    padding: 5%;
+    overflow: hidden;
+    
+}
+.container-fluid2 div.col {
+    margin:  5% 8%;
+    padding: 2%;
+}
+.container-fluid2 div.card {
+    border: none;
+}
+.container-fluid2 div.col h1 {
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+    font-size: 35px;
+}
+.number {
+    padding: 5%;
+    margin-top: 5%;
+    background-color: hsl(12, 88%, 59%);
+    text-align: center;
+    transform: translateY(20px);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.card-body {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.2rem;
+    word-spacing: 0.1rem;
+
+}
+.card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color:hsl(228, 39%, 23%);
+}
+.container-fluid3 {
+    padding: 5%;
+    margin-bottom: 15%;
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+}
+.container-fluid3 .card{
+    border: none;
+
+}
+.card-img-top {
+   width: 100px;
+   padding: 2%;
+   margin: 0 auto;
+}
+.container-fluid3 div{
+    padding: 3%;
+    text-align: center;
+}
+.container-fluid3 div h2 {
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+}
+.container-fluid3 div.card-body p.card-text{
+    font-size: 12px;
+    text-align: center;
+}
+.container-fluid4{
+    background-image:url('/images/bg-tablet-pattern.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x:130px;
+    background-position-y: -120px;
+    height: 300px;
+    width: auto;
+    padding: 5%;
+    background-color: hsl(12, 88%, 59%);
+    overflow: hidden;
+    
+}
+.container-fluid4 div.col {
+    margin:  auto 5%;
+    padding: 2%;
+    transform: translateX(150px);
+}
+.container-fluid4 div.col h2 {
+    font-weight: 700;
+    color: hsl(13, 100%, 96%);
+    font-size: 40px;
+}
+.container-fluid5 {
+   
+    background-color: hsl(233, 12%, 13%);
+    padding: 5%;
+    height: 300px;
+    overflow: hidden;
+}
+.soc-med {
+    margin-top:40%;
+}
+.ftr-menu {
+    list-style-type: none;
+}
+.ftr-menu li {
+    padding: 2%;
+}
+.ftr-menu li a{
+color: #fff;
+
+}
+.copyright {
+    margin-top: 40%;
+    font-size: 12px;
+}
+/*Hover Effects*/
+.ftr-menu li a:hover {
+text-decoration: none;
+color: hsl(12, 88%, 59%);
+}
+.btn:hover {
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(12, 88%, 59%);
+}
+a.nav-link:hover {
+    color:hsl(227, 12%, 61%);
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 600px){
+    .navbar-brand img{
+        width: 30vw;
+       
+    }
+    .navbar {
+        padding: 3%;
+        margin: auto 0%;
+        background-color:#fff;
+        text-align: center;
+    
+    }
+    .navbar button.btn {
+        display: none;
+    }
+    .container-fluid{
+        background-image: url('/images/bg-tablet-pattern.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x:150px;
+        background-position-y: 100px;
+        height: 800px;
+        width: auto;
+        padding: 5%;
+        overflow: hidden;
+        
+    }
+    .container-fluid div.col img {
+        width: 85vw;
+    }
+    .container-fluid h1 {
+        font-weight: 700;
+        color:hsl(228, 39%, 23%);
+        padding: 5%;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .container-fluid p {
+        font-weight: 200;
+        color:hsl(227, 12%, 61%);
+        padding: 5%;
+        line-height: 1.5rem;
+        word-spacing: 0.2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+    .container-fluid button {
+        transform: translateX(120px);
+    }
+    .container-fluid2{
+        background-repeat: no-repeat;
+        background-position-x:100px;
+        background-position-y: 300px;
+        height: 1200px;
+        width: auto;
+        padding: 5%;
+        overflow: hidden;
+        
+    }
+    .container-fluid2 div.col {
+        margin:  5% 8%;
+        padding: 2%;
+    }
+    .container-fluid2 div.card {
+        border: none;
+    }
+    .container-fluid2 div.col h1 {
+        color: hsl(228, 39%, 23%);
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+        padding: 2%;
+    }
+    .container-fluid2 div.col p {
+        text-align: center;
+    }
+    .card-title {
+        font-size: 14px;
+        font-weight: 700;
+        color:hsl(228, 39%, 23%);
+        text-align: center;
+    }
+    .container-fluid3 {
+        padding: 5%;
+        margin-bottom: 15%;
+        width: auto;
+        height: 1000px;
+        overflow: hidden;
+    }
+    .container-fluid4{
+        background-image:none;
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position-x:130px;
+        background-position-y: -70px;
+        height: 150px;
+        width: auto;
+        padding: 5%;
+        background-color: hsla(41, 70%, 84%, 0.849);
+        overflow: hidden;
+        
+    }
+    .container-fluid4 div.col {
+        margin:  auto 5%;
+        padding: 2%;
+        transform: translateX(30px);
+    }
+    .container-fluid4 div.col h2 {
+        font-weight: 700;
+        color: hsl(12, 88%, 59%);
+        font-size: 20px;
+    }
+    .container-fluid5 {
+        height: 800px;
+        text-align: center;
+
+    }
+    .soc-med {
+        margin: 20% auto;
+    }
+    .soc-med span{
+        margin: auto 2%;
+    }
+    .container-fluid5 div.col {
+        flex-basis: auto;
+    }
+    .ftr-logo {
+        transform: translateY(50px);
+    }
+    .container-fluid5 div.form-row {
+        transform: translateX(50px);
+        margin: 20% auto;
+    }
+}
